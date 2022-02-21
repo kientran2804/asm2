@@ -1,0 +1,123 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box ;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    padding: 12 50px;
+    height: 70px;
+    text-align: center;
+    background-position: center center;
+}
+.logo{
+    flex: 1;
+}
+.menu{
+    flex: 3;
+    display: flex;
+    padding-top: 10px;
+    border: 1px solid black;
+    box-shadow: 2px;
+}
+.menu>li{
+    padding: 0 12px;
+     position:relative;
+}
+.menu>li:hover >.sub-menu{
+    display: block;
+}
+
+
+.sub-menu{
+    padding-left: 20px;
+    float: left;
+    margin: 0 5px;
+    background-color: white;
+    position: absolute;
+    width: 270px;
+    height: auto;
+    display: none;
+    list-style-type:none;
+    border: 1px solid black;
+}
+.sub-menu>li{
+    padding: 5px;
+    margin: 5px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.menu>li a{
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    line-height: 20px;
+
+}
+.nav>li{
+    text-align: center;
+    background-position: center center;
+}
+.nav>li{
+    text-align: center;
+    background-position: center center;
+}
+.other{
+    flex: 1;
+    display: flex;
+    padding-top: 10px;
+}
+.other>li{
+    padding: 0 12px;
+}
+.other>li:first-child input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid purple;
+    position: relative;
+}
+
+.other>li:first-child i{
+    position:absolute;
+    right: 10px;
+}
+.container{
+    background-image: url('IMG/Screenshot\ 2022-02-16\ 180257.png');
+    background-size:100% 100%;
+    height:0px;
+    padding-bottom:25%;
+}
+.column{
+    width: 25%;
+    float: left;
+    text-align: center;
+    background-position: center center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    padding-right: 50px;
+    color: red;
+}
+footer{
+    background-color: rgb(50, 184, 90);
+}
+.cuoi{
+    text-align: center;
+}
+.dau{
+    float: left;
+}
+.trai{
+    padding-left: 20px;
+}
